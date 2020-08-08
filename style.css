@@ -1,0 +1,58 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,700;1,300&display=swap" );
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.navbar-brand {
+    font-family:"https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,700;1,300&display=swap";
+    font-size: 35px;
+    color: lightcoral;
+     
+}
+.nav-link {
+    font-size: 16px;
+    margin:15px;
+    color: black;
+
+}
+.nav-link:hover {
+    color: blueviolet;
+
+}
+.active .nav-link {
+    color: blueviolet;
+
+}
+.menu-right-btn{
+    padding: 13px 46px;
+    margin-right:4%;
+    background-color: transparent;
+    transition: all 300ms ease-in;
+}
+.menu-right-btn:hover {
+    color: white;
+    background-color: blueviolet;
+}
+.site-content {
+    background-image: url(./images/IMG-20190509-WA0009.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.site-tittle, 
+.site-desc {
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.site-tittle {
+    margin-top: 30%;
+    margin-bottom: 6%;
+    font-style: 50px;
+}
